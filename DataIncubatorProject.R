@@ -1,9 +1,10 @@
 #read the file
-
+#The dataset can be downloaded from: https://snap.stanford.edu/data/amazon-meta.html
+#The project on github https://github.com/malnapolya/IncubatorProjectProposal
 filename="amazon-meta.txt"
 setwd("Incubator")
 library(data.table)
-amazon<-read.table(filename,nrows=10000000,sep="\n",skip=2)
+amazon<-read.table(filename,nrows=3000000,sep="\n",skip=2)
 
 
 library(plyr)
